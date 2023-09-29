@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.app {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 800px;
+  margin-top: 50px;
+}
+
+.button-container,
+.info-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* List header */
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: rgb(228, 228, 228) 1px solid;
+  padding-bottom: 16px;
+}
+
+.list-header h1 {
+  margin-bottom: 0px;
+}
+
+/* List item */
+
+.list-item {
+  margin: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 0 0 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+}
+
+.list-item p {
+  margin-bottom: 0px;
+}
+
+/* Modal */
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-nonbs {
+  width: 500px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+}
+
+.modal-nonbs .form-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.modal-nonbs form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
